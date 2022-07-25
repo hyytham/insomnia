@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "959948741663",
+    "firebase_url": "https://ourowntimeline.firebaseio.com",
+    "project_id": "ourowntimeline",
+    "storage_bucket": "ourowntimeline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959948741663:android:3f8de93f10dba586c6492a",
+        "android_client_info": {
+          "package_name": "com.hytham.insomania20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959948741663-imfejeptol81nqm0nangv0rcl5evcof4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hytham.insomania20",
+            "certificate_hash": "b105578c07178af37b0ebc5dd44c6eb1210a79d3"
+          }
+        },
+        {
+          "client_id": "959948741663-vfq39ju7ant5rbsf9tv8r4re27ufk0lf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd7gzTQBxvgKyCEzQ0m71DJatSmm6V-ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959948741663-vfq39ju7ant5rbsf9tv8r4re27ufk0lf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

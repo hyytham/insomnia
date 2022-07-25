@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/bgmaybe_"
+    android:id="@+id/activity_login"
+    >
+
+
+    <ImageView
+        android:id="@+id/signInIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/reg_screen_logo_height"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/login_password"
+        android:layout_alignStart="@id/login_password"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/input"
+        android:drawableStart="@drawable/email"
+        android:ems="10"
+        android:hint="Email.."
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:background="@drawable/input"
+        android:drawableStart="@drawable/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Password.."
+        android:inputType="textPassword"
+        android:padding="10dp"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/friends" />
+
+    <TextView
+        android:id="@+id/first_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Awwal marra?"
+        android:textColor="@android:color/holo_red_dark" />
+
+
+</RelativeLayout>

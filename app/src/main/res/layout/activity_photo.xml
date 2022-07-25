@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_photo"
+    tools:context=".PhotoActivity">
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Description of image..."
+        android:id="@+id/description"
+        android:background="@drawable/input"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/selectedImage"
+        android:layout_marginBottom="20dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/selectedImage"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:srcCompat="@drawable/select_image"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:id="@+id/picturepostbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_below="@+id/selectedImage"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
